@@ -151,11 +151,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Cert 4 TAFE\\Cert IV Assessments\\Assessments that are done\\Payal_due_after_break\\Final_Submission\\PayrollApplication\\PayrollApplication\\MyPayProject.csproj",
+      "projectUniqueName": "C:\\Users\\Ash\\Desktop\\skills\\csharp-payroll-csv-calculator\\PayrollApplication\\MyPayProject.csproj",
       "projectName": "MyPayProject",
-      "projectPath": "C:\\Cert 4 TAFE\\Cert IV Assessments\\Assessments that are done\\Payal_due_after_break\\Final_Submission\\PayrollApplication\\PayrollApplication\\MyPayProject.csproj",
+      "projectPath": "C:\\Users\\Ash\\Desktop\\skills\\csharp-payroll-csv-calculator\\PayrollApplication\\MyPayProject.csproj",
       "packagesPath": "C:\\Users\\Ash\\.nuget\\packages\\",
-      "outputPath": "C:\\Cert 4 TAFE\\Cert IV Assessments\\Assessments that are done\\Payal_due_after_break\\Final_Submission\\PayrollApplication\\PayrollApplication\\obj\\",
+      "outputPath": "C:\\Users\\Ash\\Desktop\\skills\\csharp-payroll-csv-calculator\\PayrollApplication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
