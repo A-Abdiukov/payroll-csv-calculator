@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "93wWBkxwQ8jzVxxm0MUDKf2nJkkBWBL0iShoouS/+rMtdiuOhUNHnAnqMxgAklO8yFyjlFw501kX4Ye4ZcsrJw==",
+  "success": true,
+  "projectFilePath": "C:\\Cert 4 TAFE\\Cert IV Assessments\\Assessments that are done\\Payal_due_after_break\\Final_Submission\\PayrollApplication\\PayrollApplication\\MyPayProject.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ash\\.nuget\\packages\\csv.net\\0.3.0\\csv.net.0.3.0.nupkg.sha512",
+    "C:\\Users\\Ash\\.nuget\\packages\\csvhelper\\15.0.8\\csvhelper.15.0.8.nupkg.sha512",
+    "C:\\Users\\Ash\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

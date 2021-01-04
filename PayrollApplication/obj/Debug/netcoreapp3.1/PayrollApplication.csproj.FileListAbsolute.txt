@@ -1,0 +1,13 @@
+C:\Users\Ash\Desktop\Assessments\Payal_due_after_break\PayrollApplication\PayrollApplication\bin\Debug\netcoreapp3.1\PayrollApplication.exe
+C:\Users\Ash\Desktop\Assessments\Payal_due_after_break\PayrollApplication\PayrollApplication\bin\Debug\netcoreapp3.1\PayrollApplication.deps.json
+C:\Users\Ash\Desktop\Assessments\Payal_due_after_break\PayrollApplication\PayrollApplication\bin\Debug\netcoreapp3.1\PayrollApplication.runtimeconfig.json
+C:\Users\Ash\Desktop\Assessments\Payal_due_after_break\PayrollApplication\PayrollApplication\bin\Debug\netcoreapp3.1\PayrollApplication.runtimeconfig.dev.json
+C:\Users\Ash\Desktop\Assessments\Payal_due_after_break\PayrollApplication\PayrollApplication\bin\Debug\netcoreapp3.1\PayrollApplication.dll
+C:\Users\Ash\Desktop\Assessments\Payal_due_after_break\PayrollApplication\PayrollApplication\bin\Debug\netcoreapp3.1\PayrollApplication.pdb
+C:\Users\Ash\Desktop\Assessments\Payal_due_after_break\PayrollApplication\PayrollApplication\obj\Debug\netcoreapp3.1\PayrollApplication.csprojAssemblyReference.cache
+C:\Users\Ash\Desktop\Assessments\Payal_due_after_break\PayrollApplication\PayrollApplication\obj\Debug\netcoreapp3.1\PayrollApplication.AssemblyInfoInputs.cache
+C:\Users\Ash\Desktop\Assessments\Payal_due_after_break\PayrollApplication\PayrollApplication\obj\Debug\netcoreapp3.1\PayrollApplication.AssemblyInfo.cs
+C:\Users\Ash\Desktop\Assessments\Payal_due_after_break\PayrollApplication\PayrollApplication\obj\Debug\netcoreapp3.1\PayrollApplication.csproj.CoreCompileInputs.cache
+C:\Users\Ash\Desktop\Assessments\Payal_due_after_break\PayrollApplication\PayrollApplication\obj\Debug\netcoreapp3.1\PayrollApplication.dll
+C:\Users\Ash\Desktop\Assessments\Payal_due_after_break\PayrollApplication\PayrollApplication\obj\Debug\netcoreapp3.1\PayrollApplication.pdb
+C:\Users\Ash\Desktop\Assessments\Payal_due_after_break\PayrollApplication\PayrollApplication\obj\Debug\netcoreapp3.1\PayrollApplication.genruntimeconfig.cache
