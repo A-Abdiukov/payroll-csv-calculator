@@ -4,4 +4,4 @@
 
 2. (Optional) Change the csv file to suit your needs. The file is located at PayrollApplication\Import\employee-payroll-data.csv
 
-3. Start the project. 
+3. Start the application.
