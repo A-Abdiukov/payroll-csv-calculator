@@ -41,7 +41,7 @@ namespace UI
             this.Button_ReadCSV.Dock = System.Windows.Forms.DockStyle.Top;
             this.Button_ReadCSV.Location = new System.Drawing.Point(0, 0);
             this.Button_ReadCSV.Name = "Button_ReadCSV";
-            this.Button_ReadCSV.Size = new System.Drawing.Size(974, 23);
+            this.Button_ReadCSV.Size = new System.Drawing.Size(433, 23);
             this.Button_ReadCSV.TabIndex = 0;
             this.Button_ReadCSV.Text = "Read the CSV file";
             this.Button_ReadCSV.UseVisualStyleBackColor = true;
@@ -52,7 +52,7 @@ namespace UI
             this.Button_OpenImportFolder.Dock = System.Windows.Forms.DockStyle.Top;
             this.Button_OpenImportFolder.Location = new System.Drawing.Point(0, 23);
             this.Button_OpenImportFolder.Name = "Button_OpenImportFolder";
-            this.Button_OpenImportFolder.Size = new System.Drawing.Size(974, 23);
+            this.Button_OpenImportFolder.Size = new System.Drawing.Size(433, 23);
             this.Button_OpenImportFolder.TabIndex = 3;
             this.Button_OpenImportFolder.Text = "Open the import folder (the folder where the import file is stored)";
             this.Button_OpenImportFolder.UseVisualStyleBackColor = true;
@@ -63,7 +63,7 @@ namespace UI
             this.Button_OpenExportFolder.Dock = System.Windows.Forms.DockStyle.Top;
             this.Button_OpenExportFolder.Location = new System.Drawing.Point(0, 46);
             this.Button_OpenExportFolder.Name = "Button_OpenExportFolder";
-            this.Button_OpenExportFolder.Size = new System.Drawing.Size(974, 23);
+            this.Button_OpenExportFolder.Size = new System.Drawing.Size(433, 23);
             this.Button_OpenExportFolder.TabIndex = 4;
             this.Button_OpenExportFolder.Text = "Open the export folder (the folder where the exported file is stored)";
             this.Button_OpenExportFolder.UseVisualStyleBackColor = true;
@@ -75,7 +75,7 @@ namespace UI
             this.richTextBox_Output.Location = new System.Drawing.Point(0, 69);
             this.richTextBox_Output.Margin = new System.Windows.Forms.Padding(20);
             this.richTextBox_Output.Name = "richTextBox_Output";
-            this.richTextBox_Output.Size = new System.Drawing.Size(974, 486);
+            this.richTextBox_Output.Size = new System.Drawing.Size(433, 486);
             this.richTextBox_Output.TabIndex = 5;
             this.richTextBox_Output.Text = "";
             // 
@@ -84,7 +84,7 @@ namespace UI
             this.Button_About.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.Button_About.Location = new System.Drawing.Point(0, 532);
             this.Button_About.Name = "Button_About";
-            this.Button_About.Size = new System.Drawing.Size(974, 23);
+            this.Button_About.Size = new System.Drawing.Size(433, 23);
             this.Button_About.TabIndex = 6;
             this.Button_About.Text = "About";
             this.Button_About.UseVisualStyleBackColor = true;
@@ -94,14 +94,14 @@ namespace UI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(974, 555);
+            this.ClientSize = new System.Drawing.Size(433, 555);
             this.Controls.Add(this.Button_About);
             this.Controls.Add(this.richTextBox_Output);
             this.Controls.Add(this.Button_OpenExportFolder);
             this.Controls.Add(this.Button_OpenImportFolder);
             this.Controls.Add(this.Button_ReadCSV);
             this.Name = "MainForm";
-            this.Text = "MainForm";
+            this.Text = "CSV Tax Calculator";
             this.ResumeLayout(false);
 
         }

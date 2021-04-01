@@ -12,17 +12,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Export\**" />
-    <EmbeddedResource Remove="Export\**" />
-    <None Remove="Export\**" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <None Remove="Export\readme.txt" />
     <None Remove="HowTaxIsCalculated.docx" />
     <None Remove="Import\employee-payroll-data.csv" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="Export\readme.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="HowTaxIsCalculated.docx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

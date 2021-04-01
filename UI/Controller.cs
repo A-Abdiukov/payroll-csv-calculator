@@ -5,6 +5,9 @@ using System.Diagnostics;
 
 namespace UI
 {
+    /// <summary>
+    /// Controller class is responsible for communicating with MyPayProject
+    /// </summary>
     public class Controller
     {
         private readonly string importFolderLocation;
