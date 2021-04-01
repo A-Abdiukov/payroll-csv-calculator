@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace PayrollApplication
 {
@@ -17,7 +15,7 @@ namespace PayrollApplication
         //defining public fields
         public int YearToDate_public
         {
-            get {return YearToDate; }
+            get { return YearToDate; }
             private set { YearToDate = value; }
         }
         /// <summary>

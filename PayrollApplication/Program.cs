@@ -15,8 +15,14 @@ namespace PayrollApplication
         /// Program.cs then calls a method that gets the list, calculates the taxes for each employee in that list and outputs it into console/csv file
         /// </summary>
         /// <param name="args"></param>
+        /// 
+
+
         static void Main(string[] args)
         {
+            UI.Program.Main();
+
+
             //Getting the path of the csv file
             //First, I am getting the full path of the file, then I am going 3 folders back
             //then I am attaching the csv file to that path
@@ -31,7 +37,7 @@ namespace PayrollApplication
             //The file name looks like this: {637381283525934083}-records.csv
             //The big number in the middle 637381283525934083 is a unique number that counts the current number of ticks since 1st Jan 1970.
             string filename = (path_reduced + @"Export\");
-            filename += ("{" + DateTime.Now.Ticks.ToString() + "}-records.csv");;
+            filename += ("{" + DateTime.Now.Ticks.ToString() + "}-records.csv"); ;
 
             //Writing the file. First the Taxes/Gross/Net etc get calculated.
             //Then the calculated Taxes/Gross/Net get written onto a csv file
@@ -45,6 +51,7 @@ namespace PayrollApplication
             Console.WriteLine("--------------------------------------");
 
             //Making sure the console doesn't close
+
             Console.ReadKey();
         }
     }

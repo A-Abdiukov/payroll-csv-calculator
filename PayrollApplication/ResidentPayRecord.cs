@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace PayrollApplication
+﻿namespace PayrollApplication
 {
-    class ResidentPayRecord:PayRecord
+    class ResidentPayRecord : PayRecord
     {
         /// <summary>
         /// Defining Tax public field
@@ -19,7 +15,7 @@ namespace PayrollApplication
             get
             {
                 return TaxCalculator.CalculateResidentialTax(Gross);
-                
+
             }
         }
         /// <summary>
@@ -28,9 +24,9 @@ namespace PayrollApplication
         /// <param name="id">Unique identifier of the employee</param>
         /// <param name="hours">Contains a list of hours an employee worked.</param>
         /// <param name="rates">Contains a list of rates an employee worked.</param>
-        public ResidentPayRecord(int id, double[] hours, double[] rates):base(id, hours, rates)
+        public ResidentPayRecord(int id, double[] hours, double[] rates) : base(id, hours, rates)
         {
-           
+
         }
 
     }
