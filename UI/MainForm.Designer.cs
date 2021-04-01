@@ -30,9 +30,10 @@ namespace UI
         private void InitializeComponent()
         {
             this.Button_ReadCSV = new System.Windows.Forms.Button();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.Button_OpenImportFolder = new System.Windows.Forms.Button();
+            this.Button_OpenExportFolder = new System.Windows.Forms.Button();
+            this.richTextBox_Output = new System.Windows.Forms.RichTextBox();
+            this.Button_About = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Button_ReadCSV
@@ -40,49 +41,64 @@ namespace UI
             this.Button_ReadCSV.Dock = System.Windows.Forms.DockStyle.Top;
             this.Button_ReadCSV.Location = new System.Drawing.Point(0, 0);
             this.Button_ReadCSV.Name = "Button_ReadCSV";
-            this.Button_ReadCSV.Size = new System.Drawing.Size(800, 23);
+            this.Button_ReadCSV.Size = new System.Drawing.Size(974, 23);
             this.Button_ReadCSV.TabIndex = 0;
             this.Button_ReadCSV.Text = "Read the CSV file";
             this.Button_ReadCSV.UseVisualStyleBackColor = true;
             this.Button_ReadCSV.Click += new System.EventHandler(this.Button_ReadCSV_Click);
             // 
-            // richTextBox1
+            // Button_OpenImportFolder
             // 
-            this.richTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.richTextBox1.Location = new System.Drawing.Point(0, 23);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(800, 427);
-            this.richTextBox1.TabIndex = 2;
-            this.richTextBox1.Text = "dsd\ndsds";
+            this.Button_OpenImportFolder.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Button_OpenImportFolder.Location = new System.Drawing.Point(0, 23);
+            this.Button_OpenImportFolder.Name = "Button_OpenImportFolder";
+            this.Button_OpenImportFolder.Size = new System.Drawing.Size(974, 23);
+            this.Button_OpenImportFolder.TabIndex = 3;
+            this.Button_OpenImportFolder.Text = "Open the import folder (the folder where the import file is stored)";
+            this.Button_OpenImportFolder.UseVisualStyleBackColor = true;
+            this.Button_OpenImportFolder.Click += new System.EventHandler(this.Button_OpenImportFolder_Click);
             // 
-            // button3
+            // Button_OpenExportFolder
             // 
-            this.button3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button3.Location = new System.Drawing.Point(0, 23);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(800, 23);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "Open the import folder (the folder where the import file is stored)";
-            this.button3.UseVisualStyleBackColor = true;
+            this.Button_OpenExportFolder.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Button_OpenExportFolder.Location = new System.Drawing.Point(0, 46);
+            this.Button_OpenExportFolder.Name = "Button_OpenExportFolder";
+            this.Button_OpenExportFolder.Size = new System.Drawing.Size(974, 23);
+            this.Button_OpenExportFolder.TabIndex = 4;
+            this.Button_OpenExportFolder.Text = "Open the export folder (the folder where the exported file is stored)";
+            this.Button_OpenExportFolder.UseVisualStyleBackColor = true;
+            this.Button_OpenExportFolder.Click += new System.EventHandler(this.Button_OpenExportFolder_Click);
             // 
-            // button4
+            // richTextBox_Output
             // 
-            this.button4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button4.Location = new System.Drawing.Point(0, 46);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(800, 23);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "Open the export folder (the folder where the exported file is stored)";
-            this.button4.UseVisualStyleBackColor = true;
+            this.richTextBox_Output.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox_Output.Location = new System.Drawing.Point(0, 69);
+            this.richTextBox_Output.Margin = new System.Windows.Forms.Padding(20);
+            this.richTextBox_Output.Name = "richTextBox_Output";
+            this.richTextBox_Output.Size = new System.Drawing.Size(974, 486);
+            this.richTextBox_Output.TabIndex = 5;
+            this.richTextBox_Output.Text = "";
+            // 
+            // Button_About
+            // 
+            this.Button_About.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.Button_About.Location = new System.Drawing.Point(0, 532);
+            this.Button_About.Name = "Button_About";
+            this.Button_About.Size = new System.Drawing.Size(974, 23);
+            this.Button_About.TabIndex = 6;
+            this.Button_About.Text = "About";
+            this.Button_About.UseVisualStyleBackColor = true;
+            this.Button_About.Click += new System.EventHandler(this.Button_About_Click);
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.richTextBox1);
+            this.ClientSize = new System.Drawing.Size(974, 555);
+            this.Controls.Add(this.Button_About);
+            this.Controls.Add(this.richTextBox_Output);
+            this.Controls.Add(this.Button_OpenExportFolder);
+            this.Controls.Add(this.Button_OpenImportFolder);
             this.Controls.Add(this.Button_ReadCSV);
             this.Name = "MainForm";
             this.Text = "MainForm";
@@ -94,8 +110,10 @@ namespace UI
 
         private System.Windows.Forms.Button Button_ReadCSV;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button Button_OpenImportFolder;
+        private System.Windows.Forms.Button button_ExportF;
+        private System.Windows.Forms.Button Button_OpenExportFolder;
+        private System.Windows.Forms.RichTextBox richTextBox_Output;
+        private System.Windows.Forms.Button Button_About;
     }
 }

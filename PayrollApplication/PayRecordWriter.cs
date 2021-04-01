@@ -1,5 +1,4 @@
 ﻿using CsvHelper;
-using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
@@ -21,15 +20,17 @@ namespace PayrollApplication
         /// <param name="records">A list of ResidentPayRecords and WorkingHolidayPayRecords</param>
         /// <param name="writeToConsole">Boolean which determines whether the user wants to write something in the console and csv file or only csv file</param>
         /// <returns>void, but all output is in the console and csv file</returns>
-        public static void Write(string fileName, List<PayRecord> records, bool writeToConsole)
+        public static string[] Write(string fileName, List<PayRecord> records, bool writeToConsole)
         {
+            string[] output = new string[records.Count];
+
             //writing to the console if boolean writeToConsole is true
             switch (writeToConsole)
             {
                 case true:
                     for (int i = 0; i < records.Count; i++)
                     {
-                        Console.WriteLine(records[i].GetDetails());
+                        output[i] = (records[i].GetDetails());
                     }
                     break;
             }
@@ -49,6 +50,9 @@ namespace PayrollApplication
             //closing the writer
             writer.Flush();
             stream.Close();
+
+
+            return output;
         }
     }
 }

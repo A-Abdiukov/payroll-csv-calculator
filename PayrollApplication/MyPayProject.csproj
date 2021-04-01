@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
+    <OutputType>Library</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <Nullable>disable</Nullable>
   </PropertyGroup>
@@ -12,17 +12,28 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Import\" />
-    <Folder Include="Export\" />
+    <Compile Remove="Export\**" />
+    <EmbeddedResource Remove="Export\**" />
+    <None Remove="Export\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="HowTaxIsCalculated.docx" />
+    <None Remove="Import\employee-payroll-data.csv" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="HowTaxIsCalculated.docx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Import\employee-payroll-data.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="CSV.NET" Version="0.3.0" />
     <PackageReference Include="CsvHelper" Version="15.0.8" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\UI\UI.csproj" />
   </ItemGroup>
 
 </Project>

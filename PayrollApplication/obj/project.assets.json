@@ -31,19 +31,6 @@
         "runtime": {
           "lib/netcoreapp2.0/_._": {}
         }
-      },
-      "UI/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/UI.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/UI.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.WindowsDesktop.App.WindowsForms"
-        ]
       }
     }
   },
@@ -149,18 +136,12 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-    },
-    "UI/1.0.0": {
-      "type": "project",
-      "path": "../UI/UI.csproj",
-      "msbuildProject": "../UI/UI.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "CSV.NET >= 0.3.0",
-      "CsvHelper >= 15.0.8",
-      "UI >= 1.0.0"
+      "CsvHelper >= 15.0.8"
     ]
   },
   "packageFolders": {
@@ -197,11 +178,7 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {
-            "C:\\Users\\Ash\\Desktop\\skills\\csharp-payroll-csv-calculator\\UI\\UI.csproj": {
-              "projectPath": "C:\\Users\\Ash\\Desktop\\skills\\csharp-payroll-csv-calculator\\UI\\UI.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
