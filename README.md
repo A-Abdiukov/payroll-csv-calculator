@@ -13,5 +13,5 @@ Application takes in a .csv file that contains information about employees (numb
 
 ## Credits
 
-- CSV.NET - > https://github.com/abbgrade/csv-dotnet by Steffen Kampmann and Pavlo Datsiuk. MIT Licence.
-- CsvHelper - > https://github.com/JoshClose/CsvHelper by Josh Close and 59 other contributors. Apache 2.0 and MS-PL License.
+- CSV.NET - > https://github.com/abbgrade/csv-dotnet by Steffen Kampmann. MIT License.
+- CsvHelper - > https://github.com/JoshClose/CsvHelper by Josh Close. Dual licensing under MS-PL and Apache 2.0.
